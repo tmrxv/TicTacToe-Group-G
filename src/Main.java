@@ -7,5 +7,7 @@ public class Main {
         // check if move legal
         // make move
         // check if game is over (break condition)
+        
+        System.out.println("test");
     }
 }
