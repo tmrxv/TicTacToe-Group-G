@@ -1,7 +1,7 @@
 
 public class TicTacToe {
-    private char[][] board;
     private char currentPlayer;
+    public char[][] board;
 
     public TicTacToe() {
         board = new char[3][3];
