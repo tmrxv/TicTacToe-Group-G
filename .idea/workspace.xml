@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb965445-d6c7-4b2d-a813-467519df0a4b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build-and-upload-jar.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-and-upload-jar.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe-Group-G.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe-Group-G.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "git-widget-placeholder": "feature/DEV-5-unit-test",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
