@@ -1,0 +1,31 @@
+name: Build and Upload JAR
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '11'
+
+      - name: Build JAR
+        run: |
+          ./gradlew clean build
+
+      - name: Upload JAR to GitHub Releases
+        if: github.ref == 'refs/heads/master'
+        uses: actions/upload-artifact@v2
+        with:
+          name: TicTacToe_Group_G.jar
+          path: out/artifacts/TicTacToe_Group_G_jar/TicTacToe_Group_G.jar
