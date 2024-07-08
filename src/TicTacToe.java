@@ -29,9 +29,15 @@ public class TicTacToe {
         }
     }
 
-    public void makeMove(int row, int col) {
+    public boolean makeMove(int row, int col) {
         if (row >= 0 && col >= 0 && row < 3 && col < 3 && board[row][col] == '-') {
             board[row][col] = currentPlayer;
+            return true;
         }
+        return false;
+    }
+
+    public void changePlayer() {
+        currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
     }
 }
