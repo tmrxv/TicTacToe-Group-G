@@ -21,8 +21,11 @@ public class Main {
                 System.out.print("Column (0-2): ");
                 int col = scanner.nextInt();
 
-                game.makeMove(row, col);
-            }
+                if (game.makeMove(row, col)) {
+                    game.changePlayer();
+                } else {
+                    System.out.println("This move is not valid.");
+                }            }
         }
         //scanner.close();
     }
